@@ -1,0 +1,58 @@
+html
+
+1 
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <mota charset="utf-8">
+  <title>HTML5 class sample program</title>
+  </head>
+  <body>
+  <h1>I'm headline 1</h1>
+  <h2>I'm headline 2</h2>
+  <h3>I'm headline 3</h3>
+  <h4>I'm headline 4</h4>
+  <h5>I'm headline 5</h5>
+  <h6>I'm headline 6</h6>
+</body>
+</html>
+
+8
+
+<!DOCTYPE html>
+<html>
+<body>
+    <meta charsrt="utf-8">
+    <link rel="stylesheet" href="Untitled-3.css">
+    <h2>HTML Forms</h2>
+    <form action="action_page.php">
+     First name:
+    <input type="text" name="firstname" value="Chen">
+    <br>
+    Last name:
+    <input type="text" name="lastname" value="Jun-wei">
+        <br>
+     your student ID:  
+    <input type="text" name="your student Id" value="4070E056">
+    <br><br>
+    <input type="submit" value="submit">   
+        
+    <h2>Radio Buttons</h2>
+        <input type="radio" name="dept" value="IS department" checked> IS department<br>
+        <input type="radio" name="dept" value="IM department" > IS department<br>
+        <input type="radio" name="dept" value="IC department" > IS department<br>
+        <form>
+請勾選您想購買的項目<br>
+<input type="checkbox" value="1" name="Product_1"> apple<br>
+<input type="checkbox" value="2" name="Product_2"> orange<br>
+<input type="checkbox" value="3" name="Product_3"> cherry<br>
+</form>
+    <input type="submit" value="submit">
+</form>
+    </form>
+    
+    <p>If you click the "Submit" button, the form-data will be sent to a page called"/action_page.php" .</p>
+    </body>
+    </html>
